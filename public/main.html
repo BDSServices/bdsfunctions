@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bds.css">
+    <title>BDS Firebase Functions</title>
+  </head>
+  <body>
+    <header>
+      <h2>BookDataSolutions</h2>
+      <nav> 
+        <a href="#" id="signon">Signon</a>
+        <a href="#" id="signout">Signout</a>
+      </nav>
+    </header>
+    <br/>
+    <h3>BDS Administration</h3>
+    <!-- <div><button class="call">Say Hello</button></div> -->
+    <div><button class="userlist">Manage Users</button></div>
+    
+    <bds-signon></bds-signon>
+    <bds-manage-users></bds-manage-users>
+
+
+    <!-- <script type="module" src="data/fbase.js"></script> -->
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- <script type="text/javascript">
+      (function() {
+       emailjs.init("8OLiCZvohFJPEq_TW");
+      })();
+    </script> -->
+    <!-- <script type="module" src="components/signon.js"></script> -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

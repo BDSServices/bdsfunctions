@@ -1,0 +1,58 @@
+body, h1, h2, h3, h4, h5 {
+    text-align: center;
+	margin: 2rem;
+}
+.container {
+	display: grid;
+}
+header {
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	justify-items: right;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+}
+header a, .signon a {
+	margin-left: 0px;
+	border-bottom: 2px solid #ffe100;
+	padding: 4px;
+	cursor: pointer;
+}
+header a:hover {
+	background: signOut;
+	color: black;
+}
+
+.signonheader {
+	background-color: #ffe100;
+	border-radius: 4px; 
+}
+
+.signon {
+	display: none;
+}
+
+.active {
+	display: inline-block;
+	width:auto;
+	margin:auto;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 4px; 
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	padding:1rem;
+}
+form input {
+	display:block;
+	width: 300px;
+	border-width: 0 0 2px 0;
+	margin-bottom:1rem;
+}
+
+.call {
+    width: 10%;
+}
